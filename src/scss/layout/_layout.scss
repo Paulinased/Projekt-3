@@ -1,0 +1,16 @@
+@use '../components/buttons' as button;
+
+.test {
+    @include button.default($background: blue);
+}
+
+//.container {
+  //  width: 100%;
+   // background-color: blue;
+ //   min-height: 300px;
+
+
+   // @include responsive.max {
+   //     background-color: green;
+   // }
+//}
