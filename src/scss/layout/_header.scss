@@ -1,13 +1,17 @@
 @use '../utilities/responsive';
 
 .site-header {
-    position: fixed;
-    height: 160px;
+    //opacity: 0.40;
+    //position: fixed;
+    //@at-root: 160px;
     width: 100%;
     display: grid;
     //grid-template-columns: var(--grid-container);
     padding: 0 var(--gap-xl);
-    z-index: 999; //ligger över 999 lager
+    z-index: 990; //ligger över 999 lager
+    position: absolute;
+    margin-top: 45px; //https://nekocalc.com/px-to-rem-converter
+    
 
     @include responsive.max(40rem) {
         padding: 0 var(--gap-l);

@@ -1,16 +1,17 @@
-.about {
+.customer {
     height: 350px;
     display: grid;
     padding: 32px;
     text-align: left;
+    padding-top: 8rem;
+
 
     &__inner {
-        grid-column: inner;
+        text-align: center;
     }
 
     &__header {
-        margin-bottom: 5rem;
-        //max-width: 400rem;
+        text-align: center;
     }
 
     &__title {
@@ -18,17 +19,18 @@
         font-size: 35px;
         line-height: 1.66;
         font-weight: 700;
+        text-align: center;
     }
 
     &__text {
         font-size: 25px;
-        max-width: 700px;
     }
 
     &__introText {
         font-size: 25px;
         font-style: italic;
         font-weight: 700;
+
     }
 
 }
