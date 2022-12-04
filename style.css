@@ -475,17 +475,14 @@ li {
   display: grid;
   padding: 32px;
   text-align: left;
+  border-bottom: 2px solid rgb(235, 230, 230);
 }
 .about__inner {
   grid-column: inner;
 }
-.about__header {
-  margin-bottom: 5rem;
-}
 .about__title {
   margin-top: 0;
   font-size: 35px;
-  line-height: 1.66;
   font-weight: 700;
 }
 .about__text {
@@ -497,38 +494,49 @@ li {
   font-style: italic;
   font-weight: 700;
 }
+.about__link {
+  font-size: 25px;
+}
 
-.cards {
+.article {
   display: grid;
   padding: 2rem;
+  background-color: #fff8ef;
 }
-.cards__cardsCollection {
+.article__collection {
   justify-content: center;
   display: grid;
   grid-template-columns: repeat(auto-fit, minmax(600px, 1fr));
   align-items: center;
   margin: 0 auto;
 }
-.cards__card {
+.article__articles {
   display: flex;
   justify-content: center;
   flex-direction: column;
   align-items: center;
   padding: 20px;
 }
-.cards__card:hover {
+.article__image:hover {
   transform: scale(1.05);
 }
-.cards__image {
-  margin: 0;
-  padding: 0;
+.article__header {
+  font-size: var(--font-size-2);
+  font-weight: 900;
+  text-align: center;
+}
+.article__content {
+  font-size: var(--font-size-1);
+  text-align: center;
+  max-width: 350px;
 }
 .customer {
   height: 350px;
   display: grid;
   padding: 32px;
   text-align: left;
-  padding-top: 8rem;
+  padding-top: 5rem;
+  border-top: 2px solid rgb(235, 230, 230);
 }
 .customer__inner {
   text-align: center;
@@ -550,6 +558,9 @@ li {
   font-size: 25px;
   font-style: italic;
   font-weight: 700;
+}
+.customer__link {
+  font-size: 25px;
 }
 
 /*# sourceMappingURL=style.css.map */

@@ -3,20 +3,18 @@
     display: grid;
     padding: 32px;
     text-align: left;
+    border-bottom: 2px solid rgb(235, 230, 230);
 
     &__inner {
         grid-column: inner;
     }
 
     &__header {
-        margin-bottom: 5rem;
-        //max-width: 400rem;
     }
 
     &__title {
         margin-top: 0;
         font-size: 35px;
-        line-height: 1.66;
         font-weight: 700;
     }
 
@@ -29,6 +27,10 @@
         font-size: 25px;
         font-style: italic;
         font-weight: 700;
+    }
+
+    &__link {
+        font-size: 25px;;
     }
 
 }
