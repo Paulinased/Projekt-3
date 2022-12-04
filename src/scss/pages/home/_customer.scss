@@ -1,24 +1,20 @@
 .customer {
     height: 350px;
-    display: grid;
-    padding: 32px;
-    text-align: left;
     padding-top: 5rem;
-    border-top: 2px solid rgb(235, 230, 230);
+    border-top: 2px solid var(--color-dark-800);
 
 
     &__inner {
-        text-align: center;
     }
 
     &__header {
         text-align: center;
+        
     }
 
     &__title {
         margin-top: 0;
         font-size: 35px;
-        line-height: 1.66;
         font-weight: 700;
         text-align: center;
     }

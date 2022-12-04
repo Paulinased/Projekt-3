@@ -1,9 +1,8 @@
 .about {
     height: 350px;
     display: grid;
-    padding: 32px;
-    text-align: left;
-    border-bottom: 2px solid rgb(235, 230, 230);
+    padding: 2rem;
+    border-bottom: 2px solid var(--color-dark-800);
 
     &__inner {
         grid-column: inner;
